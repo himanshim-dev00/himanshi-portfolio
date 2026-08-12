@@ -2,6 +2,7 @@ import './App.css'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useEffect } from 'react'
+import profileImage from './assets/profile.jpg';
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -232,7 +233,7 @@ function App() {
           </div>
 
          <div className="profile-placeholder">
-  <img src="/src/assets/profile.jpg" alt="Himanshi Mishra" />
+ <img src={profileImage} alt="Himanshi Mishra" />
 </div>
         </div>
 
