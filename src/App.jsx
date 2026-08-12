@@ -221,7 +221,7 @@ function App() {
 
             <div className="hero-buttons">
               <a href="#projects">
-                View My portfolio
+                View My projects
               </a>
 
               <a href="#contact">
@@ -231,46 +231,95 @@ function App() {
 
           </div>
 
-          <div className="profile-placeholder">
-            PHOTO
-          </div>
-
+         <div className="profile-placeholder">
+  <img src="/src/assets/profile.jpg" alt="Himanshi Mishra" />
+</div>
         </div>
 
       </section>
 
 
-      {/* ABOUT SECTION */}
       <section id="about" className="about-section">
 
-        <div className="about-heading">
-          <p>ABOUT ME</p>
+  <div className="about-heading">
+    <p>ABOUT ME</p>
 
-          <h2>
-            A little about
-            <br />
-            my journey
-          </h2>
-        </div>
+    <h2>
+      A little
+      <br />
+      about
+      <br />
+      my
+      <br />
+      journey
+    </h2>
+  </div>
 
-        <div className="about-content">
+  <div className="about-content">
 
-          <p>
-            I'm Himanshi Mishra, a web developer with a background in
-            Mathematics. After completing my B.Sc. and M.Sc. in Mathematics,
-            I decided to transition into web development and started
-            building my skills through hands-on learning and projects.
-          </p>
+    <p className="about-intro">
+      I'm Himanshi Mishra, a web developer with a background in
+      Mathematics and a passion for building meaningful digital
+      experiences.
+    </p>
 
-          <p>
-            I'm passionate about creating clean, responsive and interactive
-            experiences while continuously learning new technologies.
-          </p>
+    <p>
+      After completing my B.Sc. and M.Sc. in Mathematics, I decided
+      to explore web development. What started as curiosity gradually
+      became a passion for creating responsive, interactive and
+      user-friendly websites.
+    </p>
 
-        </div>
+    <p>
+      I enjoy learning by building real projects, experimenting with
+      new technologies and improving with every challenge I take on.
+      My mathematical background helps me approach problems with
+      logic, patience and attention to detail.
+    </p>
 
-      </section>
+    <div className="about-approach">
+      <span>MY APPROACH</span>
 
+      <p>
+        Learn by building. Improve by experimenting. Grow with every
+        project.
+      </p>
+    </div>
+
+    <div className="about-highlights">
+
+      <div className="about-card">
+        <span>01</span>
+        <h3>Mathematics</h3>
+        <p>
+          B.Sc. & M.Sc. background with a strong analytical
+          and problem-solving mindset.
+        </p>
+      </div>
+
+      <div className="about-card">
+        <span>02</span>
+        <h3>Web Development</h3>
+        <p>
+          Creating responsive and interactive experiences
+          with modern frontend technologies.
+        </p>
+      </div>
+
+      <div className="about-card">
+        <span>03</span>
+        <h3>Continuous Learning</h3>
+        <p>
+          Learning through projects, practice and constantly
+          exploring new technologies.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* SKILLS SECTION */}
       <section id="skills" className="skills-section">
@@ -358,13 +407,13 @@ function App() {
             </div>
 
             <a
-              href="https://github.com/himanshim-dev00/skymart"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              View Project →
-            </a>
+  href="https://himanshim-dev00.github.io/skymart/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="project-link"
+>
+  View Project →
+</a>
 
           </div>
 
@@ -391,15 +440,14 @@ function App() {
               <span>JavaScript</span>
             </div>
 
-            <a
-              href="https://github.com/himanshim-dev00/redux-notes-app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              View Project →
-            </a>
-
+           <a
+  href="https://himanshim-dev00.github.io/redux-notes-app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="project-link"
+>
+  View Project →
+</a>
           </div>
 
 
@@ -425,49 +473,49 @@ function App() {
             </div>
 
             <a
-              href="https://github.com/himanshim-dev00/Design-Studio"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              View Project →
-            </a>
+  href="https://himanshim-dev00.github.io/Design-Studio/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="project-link"
+>
+  View Project →
+</a>
 
           </div>
 
 
           {/* PROJECT 04 */}
-          <div className="project-card">
+<div className="project-card">
 
-            <div className="project-number">
-              04
-            </div>
+  <div className="project-number">
+    04
+  </div>
 
-            <h3>
-              Nice Day Landing Page
-            </h3>
+  <h3>
+    DOM Project
+  </h3>
 
-            <p>
-              A clean and responsive landing page created with
-              modern HTML and CSS styling.
-            </p>
+  <p>
+    An interactive web project built using JavaScript DOM
+    manipulation to create dynamic and engaging user interactions.
+  </p>
 
-            <div className="project-tech">
-              <span>HTML5</span>
-              <span>CSS3</span>
-            </div>
+  <div className="project-tech">
+    <span>HTML5</span>
+    <span>CSS3</span>
+    <span>JavaScript</span>
+  </div>
 
-            <a
-              href="https://github.com/himanshim-dev00/nice-day-landing-page"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              View Project →
-            </a>
+  <a
+    href="https://dom-project-himanshi.netlify.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-link"
+  >
+    View Project →
+  </a>
 
-          </div>
-
+</div>
 
           {/* PROJECT 05 */}
           <div className="project-card">
@@ -491,7 +539,7 @@ function App() {
             </div>
 
             <a
-              href="https://github.com/himanshim-dev00/Student-s-Registration-Form-"
+              href="https://himanshim-dev00.github.io/Student-s-Registration-Form-/"
               target="_blank"
               rel="noopener noreferrer"
               className="project-link"
@@ -529,7 +577,6 @@ function App() {
   Contact Me →
 </a>
 
-</section>
 
 <div className="social-links">
 
@@ -562,6 +609,9 @@ function App() {
   </a>
 
 </div>
+
+</section>
+
 
 <footer className="footer">
 
